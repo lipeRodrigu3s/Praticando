@@ -10,7 +10,7 @@ public class Tabuada {
         System.out.println("Qual a tabuada?");
         int tabuada = scan.nextInt();
 
-        System.out.println("Taabuada de " + tabuada);
+        System.out.println("Tabuada de " + tabuada);
 
         for (int i = 1;i <= 10 ;i++){
             System.out.println(tabuada + "X" + i + "=" + (tabuada*i));
