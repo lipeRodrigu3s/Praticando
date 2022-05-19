@@ -32,6 +32,7 @@ public class Consoantes {
             if (consoante != null)
                 System.out.println(consoante + " ");
 
+
         }
         System.out.println("Quantidade de consoantes: " + quantConsoantes );
     }
