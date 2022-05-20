@@ -2,6 +2,7 @@ package list;
 
 import javax.swing.*;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Exemplo1 {
@@ -33,6 +34,18 @@ public class Exemplo1 {
         //Verificando nota
         System.out.println("Verificando se a nota 9.5 existe: " + notas.contains(2.0));
 
+        //Ordenando as notas
+        System.out.println("Ordenando por entrada: ");
+        for (Double nota : notas ) System.out.println(nota);
+
+        //Exibindo por ordem
+        System.out.println("A quarta nota adicionada foi: " + notas.get(4));
+
+        //Exibindo a menor nota
+        System.out.println("A menor nota é: " + Collections.min(notas));
+
+
 
     }
+
 }
